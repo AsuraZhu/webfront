@@ -1,0 +1,12 @@
+一些常用的dom操作  dom的增删改查
+
+// dom 选择器 document.querySelector()  document.querySelectAll()
+       不考虑兼容性 不推荐使用 document.getElementById()     
+       getElementsByName()  getElementsByClassName()  getElementsByTagName()
+
+
+// dom 增加
+    const a = document.querySelector('#div')
+    document.createElement('p')
+    document.appendChild(a)      
+
