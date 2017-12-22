@@ -6,7 +6,16 @@
 
 
 // dom 增加
+    append   appendChild
     const a = document.querySelector('#div')
     document.createElement('p')
-    document.appendChild(a)      
+    document.appendChild(a)  
+
+// dom 替换
+   replaceChild()
+// insertBefore() //在已有的子节点前插入一个新的子节点
+// dom 删除        
+   removeChild
+
+
 
