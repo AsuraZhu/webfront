@@ -1,14 +1,14 @@
 class Par {
-    constructor(name :string,age :string){
+    constructor(name: string,age: string){
        this.name = name;
        this.age =  age
     }
-    name:string;
-    age:string;
-    getName() :string {
+    name: string;
+    age: string;
+    getName(): string {
         return this.name
     }
-    getAge() :string {
+    getAge(): string {
         return this.age
     }
 }
