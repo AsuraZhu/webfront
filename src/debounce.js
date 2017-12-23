@@ -1,5 +1,5 @@
 var isObject = function(func) {
-    return '[Object Object]'==Object.prototype.toString.call(func) ? true: false;
+    return '[object Object]'==Object.prototype.toString.call(func) ? true: false;
 }
 var now = Date.now(),
     toNumber = parseInt;
