@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body style="height: 3000px;">
+    
+    </body>
+    <!-- 
+       Js 获取各种 视图的高度和宽度
+
+       clientTop clientLeft clientRight clientBottom
+       clientHeight clientWidth
+       offsetTop
+       offsetWidth offsetHeight
+       scrollTop  // 用于滚轮
+     -->
+    <script>
+        let body = document.querySelector('body')
+        document.addEventListener('scroll',ev => {
+            console.log(ev);
+            console.log(ev.target.documentElement.clientWidth)
+            console.log(ev.target)
+        })
+
+    </script>
+</html>
