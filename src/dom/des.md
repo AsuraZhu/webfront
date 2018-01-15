@@ -4,7 +4,7 @@
 
 ## dom 选择器 document.querySelector()     
     document.querySelectAll()
-       不考虑兼容性 不推荐使用 document.getElementById()    
+    不考虑兼容性 不推荐使用 document.getElementById()    
     getElementsByName()  getElementsByClassName()  getElementsByTagName()
 
 
