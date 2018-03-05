@@ -2,6 +2,8 @@
  * ajajx() 可以兼容ie
  * ActiveXObject 是ie6以下
  * 简单的使用xmlhttprequest对象
+ * 
+ * 
  */
 
  // options 是{} 
@@ -11,14 +13,15 @@ function ajax(options) {
         url: "/",
     };
     const xhr = new XMLHttpRequest();
-    // 打开一个连接
+    // 打开一个连接 
+
     xhr.open(options.type,options.url);
     xhr.responseType = "json";
     xhr.send();
     // 
     xhr.onreadystatechange = function () {
         if(xhr.readyState==4) {
-            if(xhr.status==200){
+            if(xhr.status==200 && xhr.status <300){
                 return xhr.response;
             }
         }
